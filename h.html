@@ -5,6 +5,7 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script src="js.js"></script>
+    <script src="data.js"></script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
@@ -33,8 +34,8 @@
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/ilpresto/cjhc9k1pg0vsw2rmhv93cp7k5',
-        center: [-96, 37.8],
-        zoom: 3
+        center: [-122, 37.8],
+        zoom: 8
     });
 
     var geojson = {
@@ -64,10 +65,10 @@
     };
 
     var marker = new mapboxgl.Marker()
-        .setLngLat([30.5, 50.5])
+        .setLngLat([-122.28168814822553, 37.870826653086596])
         .addTo(map);
     // code from the next step will go here!
-//bananas
+
 </script>
 
 </body>
