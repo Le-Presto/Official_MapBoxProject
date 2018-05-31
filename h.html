@@ -25,6 +25,8 @@
 </head>
 <body>
 
+<div id="welcome">Welcome to KobeFox's interactive environmental map. <br> Left click to move. Right click to rotate.</div>
+<button id="getstarted" onclick="showMap()">Get Started</button>
 <div id='map'></div>
 
 <script>
@@ -37,32 +39,7 @@
         center: [-122, 37.8],
         zoom: 8
     });
-
-    var geojson = {
-        type: 'FeatureCollection',
-        features: [{
-            type: 'Feature',
-            geometry: {
-                type: 'Point',
-                coordinates: [-77.032, 38.913]
-            },
-            properties: {
-                title: 'Mapbox',
-                description: 'Washington, D.C.'
-            }
-        },
-            {
-                type: 'Feature',
-                geometry: {
-                    type: 'Point',
-                    coordinates: [-122.414, 37.776]
-                },
-                properties: {
-                    title: 'Mapbox',
-                    description: 'San Francisco, California'
-                }
-            }]
-    };
+    $("#map").hide();
 
     var marker = new mapboxgl.Marker()
         .setLngLat([-122.28168814822553, 37.870826653086596])
