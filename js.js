@@ -27,3 +27,5 @@ $.ajax({
     },
     url: 'https://slkidsbackend.herokuapp.com/[appName]/api/users/' + emailToGet
 });
+
+

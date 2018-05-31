@@ -10,6 +10,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
     <style>
+
+        #watermarker {
+            background-image: url('https://cdn3.vectorstock.com/i/1000x1000/61/22/blue-water-drop-symbol-simple-flat-icon-vector-15746122.jpg');
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        #airmarker {
+            background-image: url('https://i.pinimg.com/originals/f2/93/34/f2933471e549912c91ba01f65f304a7c.jpg');
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .mapboxgl-popup {
+            max-width: 200px;
+        }
+
         body {
             margin: 0;
             padding: 0;
@@ -68,6 +91,26 @@
         .setLngLat([-122.28168814822553, 37.870826653086596])
         .addTo(map);
     // code from the next step will go here!
+
+
+
+    var monument = [-77.0353, 38.8895];
+
+    // create the popup
+    var popup = new mapboxgl.Popup({ offset: 25 })
+        .setText('Construction on the Washington Monument began in 1848.');
+
+    // create DOM element for the marker
+    var el = document.createElement('div');
+    el.id = 'airmarker';
+
+    // create the marker
+    new mapboxgl.Marker(el)
+        .setLngLat(monument)
+        .setPopup(popup) // sets a popup on this marker
+        .addTo(map);
+
+
 
 </script>
 
