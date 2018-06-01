@@ -33,3 +33,15 @@ function showMap() {
     $("#getstarted").hide();
     $("#map").show();
 }
+
+
+
+function setAirPopups(){
+    for( j in airData){
+        var coordinates = this.
+    }
+}
+
+function setWaterPopups(){
+
+}

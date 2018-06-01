@@ -1,6 +1,5 @@
-var airData= [
+var airData=[
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2001,
@@ -8,11 +7,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "Annual average ambient concentrations of PM 2.5 in micrograms per cubic meter, based on seasonal averages and daily measurement (monitor and modeled data)",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2002,
@@ -20,11 +18,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2003,
@@ -32,11 +29,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2004,
@@ -44,11 +40,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2005,
@@ -56,11 +51,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2006,
@@ -68,11 +62,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2007,
@@ -80,11 +73,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2008,
@@ -92,11 +84,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2009,
@@ -104,11 +95,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2010,
@@ -116,11 +106,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2011,
@@ -128,11 +117,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2001,
@@ -140,11 +128,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2002,
@@ -152,11 +139,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2003,
@@ -164,11 +150,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2004,
@@ -176,11 +161,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2005,
@@ -188,11 +172,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2006,
@@ -200,11 +183,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2007,
@@ -212,11 +194,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2008,
@@ -224,11 +205,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2009,
@@ -236,11 +216,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2010,
@@ -248,11 +227,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2011,
@@ -260,11 +238,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2001,
@@ -272,11 +249,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2002,
@@ -284,11 +260,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2003,
@@ -296,11 +271,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2004,
@@ -308,11 +282,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2005,
@@ -320,11 +293,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2006,
@@ -332,11 +304,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2007,
@@ -344,11 +315,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2008,
@@ -356,11 +326,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2009,
@@ -368,11 +337,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2010,
@@ -380,11 +348,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2011,
@@ -392,11 +359,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.7749,
-        "-121.7195": -122.4194
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
-        "State": "California",
         "": "",
         "County": "San Francisco",
         "Year": 2001,
@@ -404,11 +370,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.7749,
-        "-121.7195": -122.4194
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
-        "State": "California",
         "": "",
         "County": "San Francisco",
         "Year": 2002,
@@ -416,11 +381,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.7749,
-        "-121.7195": -122.4194
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
-        "State": "California",
         "": "",
         "County": "San Francisco",
         "Year": 2003,
@@ -428,11 +392,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.7749,
-        "-121.7195": -122.4194
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
-        "State": "California",
         "": "",
         "County": "San Francisco",
         "Year": 2004,
@@ -440,11 +403,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.7749,
-        "-121.7195": -122.4194
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
-        "State": "California",
         "": "",
         "County": "San Francisco",
         "Year": 2005,
@@ -452,11 +414,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.7749,
-        "-121.7195": -122.4194
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
-        "State": "California",
         "": "",
         "County": "San Francisco",
         "Year": 2006,
@@ -464,11 +425,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.7749,
-        "-121.7195": -122.4194
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
-        "State": "California",
         "": "",
         "County": "San Francisco",
         "Year": 2007,
@@ -476,11 +436,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.7749,
-        "-121.7195": -122.4194
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
-        "State": "California",
         "": "",
         "County": "San Francisco",
         "Year": 2008,
@@ -488,11 +447,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.7749,
-        "-121.7195": -122.4194
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
-        "State": "California",
         "": "",
         "County": "San Francisco",
         "Year": 2009,
@@ -500,11 +458,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.7749,
-        "-121.7195": -122.4194
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
-        "State": "California",
         "": "",
         "County": "San Francisco",
         "Year": 2010,
@@ -512,11 +469,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.7749,
-        "-121.7195": -122.4194
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
-        "State": "California",
         "": "",
         "County": "San Francisco",
         "Year": 2011,
@@ -524,11 +480,10 @@ var airData= [
         "Unit": "Âµg/mÂ³",
         "Unit Name": "Micograms per cubic meter",
         "Type": "",
-        "37.6017": 37.7749,
-        "-121.7195": -122.4194
+        "latitude": 37.7749,
+        "longitude": -122.4194
     },
     {
-        "State": "",
         "": "",
         "County": "",
         "Year": "",
@@ -536,11 +491,10 @@ var airData= [
         "Unit": "",
         "Unit Name": "",
         "Type": "",
-        "37.6017": "",
-        "-121.7195": ""
+        "latitude": "",
+        "longitude": ""
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2001,
@@ -548,11 +502,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "Number of person-days with maximum 8-hour average ozone concentration over the National Ambient Air Quality Standard (monitor and modeled data)",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2002,
@@ -560,11 +513,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2003,
@@ -572,11 +524,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2004,
@@ -584,11 +535,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2005,
@@ -596,11 +546,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2006,
@@ -608,11 +557,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2007,
@@ -620,11 +568,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2008,
@@ -632,11 +579,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2009,
@@ -644,11 +590,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2010,
@@ -656,11 +601,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.6017,
-        "-121.7195": -121.7195
+        "latitude": 37.6017,
+        "longitude": -121.7195
     },
     {
-        "State": "California",
         "": "",
         "County": "Alameda",
         "Year": 2011,
@@ -668,11 +612,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2001,
@@ -680,11 +623,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2002,
@@ -692,11 +634,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2003,
@@ -704,11 +645,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2004,
@@ -716,11 +656,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2005,
@@ -728,11 +667,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2006,
@@ -740,11 +678,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2007,
@@ -752,11 +689,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2008,
@@ -764,11 +700,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2009,
@@ -776,11 +711,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2010,
@@ -788,11 +722,10 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     },
     {
-        "State": "California",
         "": "",
         "County": "Contra Costa",
         "Year": 2011,
@@ -800,8 +733,8 @@ var airData= [
         "Unit": "No Units",
         "Unit Name": "No Units",
         "Type": "",
-        "37.6017": 37.8534,
-        "-121.7195": -121.9018
+        "latitude": 37.8534,
+        "longitude": -121.9018
     }
 ];
 var waterData = [
