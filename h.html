@@ -4,8 +4,8 @@
     <title></title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <script src="js.js"></script>
     <script src="data.js"></script>
+    <script src="js.js"></script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
@@ -69,25 +69,23 @@
         .addTo(map);
     // code from the next step will go here!
 
+    function setAirPopups(){
+        for(var j = 0; j < airData.length; j++){
+            var coordinates = [airData[j].longitude, airData[j].latitude];
+            var popupText = "County: " + airData[j].County +", Year: " + airData[j].Year + " <br>" + airData[j].Value + " " + airData[j].Unit + " (" + airData[j].UnitName + ")"
+            var popup = new mapboxgl.Popup({ offset: 25 })
+                .setText(popupText);
+            var el = document.createElement('div');
+            el.id = 'airmarker';
+            new mapboxgl.Marker(el)
+                .setLngLat(coordinates)
+                .setPopup(popup) // sets a popup on this marker
+                .addTo(map);
+        }
 
+    }
 
-    var monument = [-77.0353, 38.8895];
-
-    // create the popup
-    var popup = new mapboxgl.Popup({ offset: 25 })
-        .setText('Construction on the Washington Monument began in 1848.');
-
-    // create DOM element for the marker
-    var el = document.createElement('div');
-    el.id = 'airmarker';
-
-    // create the marker
-    new mapboxgl.Marker(el)
-        .setLngLat(monument)
-        .setPopup(popup) // sets a popup on this marker
-        .addTo(map);
-
-
+   setAirPopups();
 
 </script>
 

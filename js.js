@@ -1,3 +1,4 @@
+/*
 $.ajax({
     type: 'POST',
     contentType: 'application/json',
@@ -27,7 +28,7 @@ $.ajax({
     },
     url: 'https://slkidsbackend.herokuapp.com/[appName]/api/users/' + emailToGet
 });
-
+*/
 function showMap() {
     $("#welcome").hide();
     $("#getstarted").hide();
@@ -36,13 +37,7 @@ function showMap() {
 
 
 
-function setAirPopups(){
-    for( j in airData){
-        var coodinates = [this.longitude, this.latitude];
-        var popup = "County: " + this.County +", Year: " + this.Year + " <br>" + this.Value + " " + this.Unit + " (Micrograms per cubic meter)"
-         }
-         
-}
+
 
 function setWaterPopups(){
 
