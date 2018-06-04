@@ -38,8 +38,10 @@ function showMap() {
 
 function setAirPopups(){
     for( j in airData){
-        var coordinates = this.
-    }
+        var coodinates = [this.longitude, this.latitude];
+        var popup = "County: " + this.County +", Year: " + this.Year + " <br>" + this.Value + " " + this.Unit + " (Micrograms per cubic meter)"
+         }
+         
 }
 
 function setWaterPopups(){
