@@ -72,7 +72,8 @@
     function setAirPopups(){
         for(var j = 0; j < airData.length; j++){
             var coordinates = [airData[j].longitude, airData[j].latitude];
-            var popupText = "County: " + airData[j].County +", Year: " + airData[j].Year + " <br>" + airData[j].Value + " " + airData[j].Unit + " (" + airData[j].UnitName + ")"
+            var popupText = "County: " + airData[j].County +", Year: " + airData[j].Year + "  " + airData[j].Value + " " + airData[j].Unit + " (" + airData[j].UnitName + ")"
+
             var popup = new mapboxgl.Popup({ offset: 25 })
                 .setText(popupText);
             var el = document.createElement('div');
@@ -82,7 +83,6 @@
                 .setPopup(popup) // sets a popup on this marker
                 .addTo(map);
         }
-
     }
 
    setAirPopups();
