@@ -1,4 +1,3 @@
-/*
 $.ajax({
     type: 'POST',
     contentType: 'application/json',
@@ -28,7 +27,7 @@ $.ajax({
     },
     url: 'https://slkidsbackend.herokuapp.com/[appName]/api/users/' + emailToGet
 });
-*/
+
 function showMap() {
     $("#welcome").hide();
     $("#getstarted").hide();
@@ -36,9 +35,3 @@ function showMap() {
 }
 
 
-
-
-
-function setWaterPopups(){
-
-}

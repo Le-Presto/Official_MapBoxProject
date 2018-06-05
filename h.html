@@ -87,6 +87,33 @@
 
    setAirPopups();
 
+    function setWaterPopups(){
+        for(var j = 0; j < waterData.length; j++){
+            var w = waterData[j];
+            var coordinates = [w.longitude, w.latitude];
+            var popupText = "Date: "+ w.Date + ", Chlorophyll: " + w.Calculated_Chlorophyll+ ", Oxygen: " + w.Calculated_Oxygen+
+                ", SPM:" + w.Calculated_SPM+
+                ", Extinction Coefficient:" + w.Extinction_Coefficient+
+                ", Salinity:" + w.Salinity+
+                ", Temperature:" + w.Temperature+
+                ", Nitrite:" + w.Nitrite+
+                ", Ammonium:" + w.Ammonium+
+                ", Phosphate:" + w.Phosphate+
+                ", Silicate:" + w.Silicate;
+            var popup = new mapboxgl.Popup({ offset: 25 })
+                .setText(popupText);
+            var el = document.createElement('div');
+            el.id = 'watermarker';
+            new mapboxgl.Marker(el)
+                .setLngLat(coordinates)
+                .setPopup(popup) // sets a popup on this marker
+                .addTo(map);
+        }
+
+    }
+
+    setWaterPopups();
+
 </script>
 
 </body>
