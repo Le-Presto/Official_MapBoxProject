@@ -50,7 +50,11 @@
 
 <div id="welcome">Welcome to KobeFox's interactive environmental map. <br> Left click to move. Right click to rotate.</div>
 <button id="getstarted" onclick="showMap()">Get Started</button>
-<div id='map'></div>
+
+<div id='map'>
+    <button id="hswater" onclick="hideShowWater()">Water</button>
+    <button id="hsair" onclick="hideShowAir()">Air</button>
+</div>
 
 <script id="runner">
 
@@ -109,6 +113,13 @@
     }
 
     setWaterPopups();
+    function hideShowWater() {
+        $("#watermarker").toggle();
+    }
+
+    function hideShowAir() {
+        $("#airmarker").toggle();
+    }
 
 </script>
 
