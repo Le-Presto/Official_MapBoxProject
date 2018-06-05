@@ -64,10 +64,7 @@
     });
     $("#map").hide();
 
-    var marker = new mapboxgl.Marker()
-        .setLngLat([-122.28168814822553, 37.870826653086596])
-        .addTo(map);
-    // code from the next step will go here!
+
 
     function setAirPopups(){
         for(var j = 0; j < airData.length; j++){
@@ -90,18 +87,17 @@
     function setWaterPopups(){
         for(var j = 0; j < waterData.length; j++){
             var w = waterData[j];
-            var coordinates = [w.longitude, w.latitude];
-            var popupText = "Date: "+ w.Date + ", Chlorophyll: " + w.Calculated_Chlorophyll+ ", Oxygen: " + w.Calculated_Oxygen+
-                ", SPM:" + w.Calculated_SPM+
-                ", Extinction Coefficient:" + w.Extinction_Coefficient+
-                ", Salinity:" + w.Salinity+
-                ", Temperature:" + w.Temperature+
-                ", Nitrite:" + w.Nitrite+
-                ", Ammonium:" + w.Ammonium+
-                ", Phosphate:" + w.Phosphate+
-                ", Silicate:" + w.Silicate;
+            var coordinates = [w.Longitude, w.Latitude];
             var popup = new mapboxgl.Popup({ offset: 25 })
-                .setText(popupText);
+                .setText("Date: "+ w.Date + ", Chlorophyll: " + w.Calculated_Chlorophyll+ ", Oxygen: " + w.Calculated_Oxygen+
+                    ", SPM:" + w.Calculated_SPM+
+                    ", Extinction Coefficient:" + w.Extinction_Coefficient+
+                    ", Salinity:" + w.Salinity+
+                    ", Temperature:" + w.Temperature+
+                    ", Nitrite:" + w.Nitrite+
+                    ", Ammonium:" + w.Ammonium+
+                    ", Phosphate:" + w.Phosphate+
+                    ", Silicate:" + w.Silicate);
             var el = document.createElement('div');
             el.id = 'watermarker';
             new mapboxgl.Marker(el)
