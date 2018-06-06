@@ -11,7 +11,7 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
     <style>
 
-        #watermarker {
+        .watermarker {
             background-image: url('https://cdn3.vectorstock.com/i/1000x1000/61/22/blue-water-drop-symbol-simple-flat-icon-vector-15746122.jpg');
             background-size: cover;
             width: 50px;
@@ -20,7 +20,7 @@
             cursor: pointer;
         }
 
-        #airmarker {
+        .airmarker {
             background-image: url('https://i.pinimg.com/originals/f2/93/34/f2933471e549912c91ba01f65f304a7c.jpg');
             background-size: cover;
             width: 50px;
@@ -78,7 +78,7 @@
             var popup = new mapboxgl.Popup({ offset: 25 })
                 .setText(popupText);
             var el = document.createElement('div');
-            el.id = 'airmarker';
+            el.className = 'airmarker';
             new mapboxgl.Marker(el)
                 .setLngLat(coordinates)
                 .setPopup(popup) // sets a popup on this marker
@@ -103,7 +103,7 @@
                     ", Phosphate:" + w.Phosphate+
                     ", Silicate:" + w.Silicate);
             var el = document.createElement('div');
-            el.id = 'watermarker';
+            el.className = 'watermarker';
             new mapboxgl.Marker(el)
                 .setLngLat(coordinates)
                 .setPopup(popup) // sets a popup on this marker
@@ -114,11 +114,11 @@
 
     setWaterPopups();
     function hideShowWater() {
-        $("#watermarker").toggle();
+        $(".watermarker").toggle();
     }
 
     function hideShowAir() {
-        $("#airmarker").toggle();
+        $(".airmarker").toggle();
     }
 
 </script>
